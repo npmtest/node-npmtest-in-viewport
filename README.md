@@ -1,4 +1,7 @@
-# test coverage for  [in-viewport (v3.4.2)](https://github.com/vvo/in-viewport#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-in-viewport.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-in-viewport) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-in-viewport.svg)](https://travis-ci.org/npmtest/node-npmtest-in-viewport)
+# npmtest-in-viewport
+
+#### basic test coverage for  [in-viewport (v3.4.2)](https://github.com/vvo/in-viewport#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-in-viewport.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-in-viewport) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-in-viewport.svg)](https://travis-ci.org/npmtest/node-npmtest-in-viewport)
+
 #### Get a callback when an element enters the viewport (body) or a custom viewport
 
 [![NPM](https://nodei.co/npm/in-viewport.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/in-viewport)
@@ -79,7 +82,8 @@
         "test": "npm run build && DEBUG=zuul* zuul --tunnel ngrok -- test/*.js",
         "watch": "watchify ./in-viewport.js -d -s inViewport -p deumdify -o build/in-viewport.min.js -v"
     },
-    "version": "3.4.2"
+    "version": "3.4.2",
+    "bin": {}
 }
 ```
 
